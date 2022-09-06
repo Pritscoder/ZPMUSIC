@@ -50,10 +50,11 @@
                        data:frmdata,
                        success:function(){
                            alert("successfully send");
+                           document.getElementById("frm").reset();
                        },
                        error:function(){
                            alert("Data not send");
-                       }
+                       },
                        processData:false,
                        contentType:false
                    });

@@ -17,7 +17,7 @@ public class ConnectionProvider {
         if(con==null){
             try {
                 Class.forName("com.mysql.jdbc.Driver");
-                con=DriverManager.getConnection("jdbc:mysql://localhost:3306/zpmusic","root","Priti@94");
+                con=DriverManager.getConnection("node99270-music.cloudjiffy.net","root","OMIepr12926");
             } catch (ClassNotFoundException ex) {
                 Logger.getLogger(ConnectionProvider.class.getName()).log(Level.SEVERE, null, ex);
             } catch (SQLException ex) {
